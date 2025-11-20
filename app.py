@@ -74,3 +74,4 @@ if __name__ == '__main__':
     # AI 모델 로딩은 메모리를 많이 사용하므로 debug=False로 실행 (중복 로드 방지)
     # host='0.0.0.0' 설정으로 외부 접속 허용 (필요시)
     app.run(host='0.0.0.0', debug=False, port=5000)
+
